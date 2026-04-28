@@ -16,7 +16,7 @@ public class XORAfterRangeMultiQryV2 {
                     n2_0%=MOD;
                 }
             }else {
-                for(int i=query[0];i<query[1];i+=query[2]){
+                for(int i=query[0];i<=query[1];i+=query[2]){
                     long val=(long)nums[i]*query[3];
                     if(val>=MOD){
                         val%=MOD;

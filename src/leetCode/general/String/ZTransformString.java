@@ -2,7 +2,7 @@ package leetCode.general.String;
 
 import java.util.ArrayList;
 // Z字形变换
-public class ZTransformString {
+public class  ZTransformString {
     public String convert(String s, int numRows) {
         ArrayList<StringBuilder> rows = new ArrayList<StringBuilder>();
         if (numRows == 1) {
