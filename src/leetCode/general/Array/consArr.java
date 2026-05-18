@@ -10,6 +10,6 @@ public class consArr {
                 cnt++;
             }
         }
-        return ans>cnt?ans:cnt;
+        return Math.max(ans, cnt);
     }
 }

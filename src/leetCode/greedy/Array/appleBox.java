@@ -1,7 +1,5 @@
-package leetCode.general.Array;
+package leetCode.greedy.Array;
 // 重新分装苹果
-
-import java.util.Arrays;
 
 public class appleBox {
     public int minimumBoxes(int[] apple,int[] capacity) {

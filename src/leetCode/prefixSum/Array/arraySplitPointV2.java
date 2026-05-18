@@ -1,4 +1,4 @@
-package leetCode.general.Array;
+package leetCode.prefixSum.Array;
 
 public class arraySplitPointV2 {
     public int countValidSelections(int[] nums) {

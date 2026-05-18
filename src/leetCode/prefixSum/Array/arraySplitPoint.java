@@ -1,4 +1,4 @@
-package leetCode.general.Array;
+package leetCode.prefixSum.Array;
 
 import java.util.ArrayList;
 // 使数组元素等于零
