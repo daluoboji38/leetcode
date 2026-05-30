@@ -1,7 +1,7 @@
 package leetCode.general.Array;
 
 // 跳跃游戏 IX
-public class jumpGame {
+public class jumpGame9 {
     public int[] maxValue(int[] nums) {
         int n = nums.length;
         int[] preMax = new int[n];

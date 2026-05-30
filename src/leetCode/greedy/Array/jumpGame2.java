@@ -1,7 +1,7 @@
 package leetCode.greedy.Array;
 
 // 跳跃游戏 II
-public class jumpGame4 {
+public class jumpGame2 {
     public int jump(int[] nums) {
         int n = nums.length,max=nums[0],idx=-1,start,end,ans=0;
         if(n==1)return 0;

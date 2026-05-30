@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 // 跳跃游戏 IV
-public class jumpGame3 {
+public class jumpGame4 {
     public int minJumps(int[] arr) {
         int n=arr.length;
         Map<Integer, List<Integer>> groups=new HashMap<>();
