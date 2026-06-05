@@ -2,7 +2,7 @@ package leetCode.backtrack.TDArray.Recursion;
 
 public class NQueen2V2 {
     public int totalNQueens(int n) {
-
+        return dfs(n,0,0,0,0);
     }
 
     private int dfs(int n,int row,int col,int d1,int d2){
