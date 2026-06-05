@@ -12,6 +12,11 @@ public class NQueen2V2 {
         int limit=(1<<n)-1; // available position mask
         int pos=~(col | d1 | d2) & limit;
 
-
+        while(pos!=0){
+            int p=pos& -pos;
+            pos-=p;
+            cnt+=dfs(n,row+1,col|p,(d1|p)<<1,(d2|p)>>1);
+        }
+        return cnt;
     }
 }
