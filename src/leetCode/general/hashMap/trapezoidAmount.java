@@ -1,4 +1,4 @@
-package leetCode.general.hash;
+package leetCode.general.hashMap;
 // 统计梯形的数目 I
 
 

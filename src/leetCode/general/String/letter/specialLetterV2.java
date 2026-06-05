@@ -1,4 +1,4 @@
-package leetCode.general.String;
+package leetCode.general.String.letter;
 
 public class specialLetterV2 {
     public int numberOfSpecialChars(String word) {

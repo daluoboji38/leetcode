@@ -1,4 +1,4 @@
-package leetCode.general.hash;
+package leetCode.general.hashMap;
 // 统计特殊三元组
 
 import java.util.HashMap;

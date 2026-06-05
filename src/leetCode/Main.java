@@ -1,18 +1,18 @@
 package leetCode;
 
-import leetCode.backtrack.Array.premutation;
-import leetCode.backtrack.Array.premutationDup;
+import leetCode.Contribute.Math.wavinessSum;
 import leetCode.general.Array.putQuery;
-import leetCode.general.String.specialLetter2;
-import leetCode.greedy.String.regexMatch2;
+import leetCode.general.Array.sort.amuseParkPlan;
+import leetCode.general.String.letter.hashMap.GroupAnagrams;
+import leetCode.general.String.letter.hashMap.GroupAnagramsV2;
 
 import java.util.List;
 
 // % 是求余运算符，而 / 才是求商运算符
 public class Main {
     public void main(String[] args) {
-        putQuery ex = new putQuery();
-        List<Boolean> result = ex.getResults(new int[][]{{1,6},{1,11},{1,2},{1,22},{1,28},{1,20},{2,30,14}});
+        wavinessSum ex = new wavinessSum();
+        int result = ex.totalWaviness(198, 202);
         System.out.println(result);
 
 
