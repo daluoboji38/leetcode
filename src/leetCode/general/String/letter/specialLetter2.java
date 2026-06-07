@@ -1,4 +1,4 @@
-package leetCode.general.String;
+package leetCode.general.String.letter;
 
 // 统计特殊字母的数量 II
 public class specialLetter2 {
