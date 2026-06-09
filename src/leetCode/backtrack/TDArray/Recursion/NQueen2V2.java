@@ -10,12 +10,13 @@ public class NQueen2V2 {
 
         int cnt=0;
         int limit=(1<<n)-1; // available position mask
-        int pos=~(col | d1 | d2) & limit;
+        int pos=~(col | d1 | d2) & limit; // merge to get available position mask
 
         while(pos!=0){
-            int p=pos& -pos;
+            int p=pos& -pos; // get the rightmost 1
             pos-=p;
             cnt+=dfs(n,row+1,col|p,(d1|p)<<1,(d2|p)>>1);
+            // d1: ↘ diagonal, d2: ↙ diagonal
         }
         return cnt;
     }
