@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 // 折扣价交易股票的最大利润
+// nothing to do with tree structure
 public class ZOBOnTree {
     public int maxProfit(int n,int[] present,int[] future,int[][] hierarchy,int budget){
         List<Integer>[] g=new ArrayList[n];
@@ -29,13 +30,14 @@ public class ZOBOnTree {
         subF[0][0]=subF[1][0]=0;
         // enmerate all child node jy of x, and update the final value of subF[j][k]
         for(int y:g[x]){
+            // fy: max profit of point y, jy: budget limit, k: 0 for full price, 1 for discount price
             int[][] fy = dfs(y, g, present, future, budget);
             // consider as a jy size, fy[j][k] value item
             for(int k=0;k<2;k++){
                 int nf[] = new int[budget+1];
                 Arrays.fill(nf, Integer.MIN_VALUE/2);
                 nf[0]=0;
-                for(int jy=0;jy<=budget;jy++){
+                for(int jy=0;jy <=budget;jy++){
                     int resY=fy[k][jy];
                     if (resY<0) continue;
                     for(int j=jy;j<=budget;j++){

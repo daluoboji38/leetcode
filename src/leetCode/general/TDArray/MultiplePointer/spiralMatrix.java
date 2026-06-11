@@ -1,4 +1,4 @@
-package leetCode.general.TDArray;
+package leetCode.general.TDArray.MultiplePointer;
 
 import java.util.ArrayList;
 import java.util.List;

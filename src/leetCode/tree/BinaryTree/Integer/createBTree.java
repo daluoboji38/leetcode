@@ -3,6 +3,8 @@ package leetCode.tree.BinaryTree.Integer;
 import java.util.HashMap;
 import java.util.Map;
 
+// 根据描述创建二叉树
+
 public class createBTree {
     public TreeNode createBinaryTree(int[][] descriptions) {
         Map<Integer,TreeNode> nodes=new HashMap<>(descriptions.length+1,1);
