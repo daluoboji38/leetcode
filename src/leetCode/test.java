@@ -5,45 +5,33 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 public class test {
-    char processStr(String S, long k) {
-        char[] s = S.toCharArray();
-        long sz = 0;
-        for (char c : s) {
-            if (c == '*') {
-                sz = Math.max(sz - 1, 0);
-            } else if (c == '#') {
-                sz *= 2;
-            } else if (c != '%') {
-                sz++;
+    public int zigZagArrays(int n, int l, int r) {
+        final int MOD = 1_000_000_007;
+        int k = r - l + 1;
+
+        int[] f0 = new int[k]; // 后两个数递增
+        int[] f1 = new int[k]; // 后两个数递减
+        Arrays.fill(f0, 1);
+        Arrays.fill(f1, 1);
+        long[] s0 = new long[k + 1];
+        long[] s1 = new long[k + 1];
+
+        for (int i = 2; i <= n; i++) {
+            for (int j = 0; j < k; j++) {
+                s0[j + 1] = s0[j] + f0[j];
+                s1[j + 1] = s1[j] + f1[j];
+            }
+            for (int j = 0; j < k; j++) {
+                f0[j] = (int) (s1[j] % MOD);
+                f1[j] = (int) ((s0[k] - s0[j + 1]) % MOD);
             }
         }
 
-        if (k >= sz) {
-            return '.';
+        long ans = 0;
+        for (int j = 0; j < k; j++) {
+            ans += f0[j] + f1[j];
         }
-
-        for (int i = s.length - 1; ; i--) {
-            char c = s[i];
-            if (c == '*') {
-                sz++;
-            } else if (c == '#') {
-                sz /= 2;
-                if (k >= sz) {
-                    k -= sz;
-                }
-            } else if (c == '%') {
-                k = sz - 1 - k;
-            } else {
-                sz--;
-                if (k == sz) {
-                    return c;
-                }
-            }
-        }
+        return (int) (ans % MOD);
     }
 }
 
-作者：灵茶山艾府
-链接：https://leetcode.cn/problems/process-string-with-special-operations-ii/solutions/3722462/ni-xiang-si-wei-pythonjavacgo-by-endless-26al/
-来源：力扣（LeetCode）
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。

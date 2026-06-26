@@ -1,4 +1,4 @@
-package leetCode.general.caculate;
+package leetCode.general.math;
 // 仅含置位位的最小整数（置位位指二进制表示中值为1的位）
 public class setBitOnly {
     public int smallestNumber(int n) {

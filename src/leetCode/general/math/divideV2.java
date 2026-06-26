@@ -1,4 +1,4 @@
-package leetCode.general.caculate;
+package leetCode.general.math;
 
 public class divideV2 {
     public int divide(int dividend, int divisor) {

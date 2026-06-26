@@ -1,4 +1,4 @@
-package leetCode.general.caculate;
+package leetCode.general.math;
 // 股票平滑下跌阶段的数目
 
 

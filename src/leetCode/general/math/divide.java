@@ -1,4 +1,4 @@
-package leetCode.general.caculate;
+package leetCode.general.math;
 
 // 两数相除
 

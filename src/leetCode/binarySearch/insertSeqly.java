@@ -1,6 +1,7 @@
 package leetCode.binarySearch;
 
 // 搜索插入位置
+// open interval
 public class insertSeqly {
     public int searchInsert(int[] nums, int target) {
         return lower_bound(nums,target);
