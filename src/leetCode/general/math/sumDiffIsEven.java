@@ -1,4 +1,4 @@
-package leetCode.general.caculate;
+package leetCode.general.math;
 
 // 统计元素和差值为偶数的分区方案
 

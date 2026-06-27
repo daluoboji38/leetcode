@@ -1,4 +1,4 @@
-package leetCode.general.caculate;
+package leetCode.general.math;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package leetCode.general.caculate;
+package leetCode.general.math;
 
 // 时钟指针的夹角
 public class AngleClock {

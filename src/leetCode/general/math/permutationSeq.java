@@ -1,6 +1,4 @@
-package leetCode.general.caculate;
-
-import java.util.Arrays;
+package leetCode.general.math;
 
 // 排列序列
 public class permutationSeq {
