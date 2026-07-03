@@ -1,4 +1,6 @@
-package leetCode.listNode;
+package leetCode.listNode.modify;
+
+import leetCode.listNode.ListNode;
 
 // 删除链表的中间节点
 public class deleteMid {

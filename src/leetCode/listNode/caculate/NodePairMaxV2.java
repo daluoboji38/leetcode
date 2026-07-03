@@ -1,4 +1,6 @@
-package leetCode.listNode;
+package leetCode.listNode.caculate;
+
+import leetCode.listNode.ListNode;
 
 public class NodePairMaxV2 {
     private static final int[] NODE_VALUES=new int[100000];

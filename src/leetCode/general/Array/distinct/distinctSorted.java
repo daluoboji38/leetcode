@@ -1,4 +1,4 @@
-package leetCode.general.Array;
+package leetCode.general.Array.distinct;
 // 删除有序数组中的重复项
 public class distinctSorted {
     public int removeDuplicates(int[] nums) {

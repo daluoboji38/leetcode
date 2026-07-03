@@ -1,6 +1,8 @@
-package leetCode.listNode;
+package leetCode.listNode.modify;
 // 两两交换链表中的节点
 
+
+import leetCode.listNode.ListNode;
 
 public class internalSwap {
     public ListNode swapPairs(ListNode head) {

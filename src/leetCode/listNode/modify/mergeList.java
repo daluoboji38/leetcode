@@ -1,4 +1,7 @@
-package leetCode.listNode;
+package leetCode.listNode.modify;
+
+import leetCode.listNode.ListNode;
+
 // 合并两个有序链表
 public class mergeList {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {

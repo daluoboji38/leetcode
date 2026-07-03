@@ -1,7 +1,8 @@
-package leetCode.listNode;
+package leetCode.listNode.modify;
 // K个一组翻转链表
 
 
+import leetCode.listNode.ListNode;
 
 public class internalSwap2 {
     public ListNode reverseKGroup(ListNode head, int k) {

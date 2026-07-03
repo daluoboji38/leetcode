@@ -1,4 +1,6 @@
-package leetCode.listNode;
+package leetCode.listNode.caculate;
+
+import leetCode.listNode.ListNode;
 
 // 链表最大孪生和
 public class NodePairMax {

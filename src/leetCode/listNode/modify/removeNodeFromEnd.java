@@ -1,6 +1,8 @@
-package leetCode.listNode;
+package leetCode.listNode.modify;
 // 删除链表的倒数第N个节点
 
+
+import leetCode.listNode.ListNode;
 
 public class removeNodeFromEnd {
 

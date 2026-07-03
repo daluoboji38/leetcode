@@ -1,4 +1,6 @@
-package leetCode.listNode;
+package leetCode.listNode.modify;
+
+import leetCode.listNode.ListNode;
 
 // 旋转链表
 public class rotaListNode {

@@ -1,4 +1,4 @@
-package leetCode.listNode;
+package leetCode.listNode.caculate;
 // 两数相加
 public class sumOfListNode {
     public static class ListNode {

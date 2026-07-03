@@ -1,4 +1,6 @@
-package leetCode.listNode;
+package leetCode.listNode.modify;
+
+import leetCode.listNode.ListNode;
 
 public class inernalSwap2V2 {
     public ListNode reverseKGroup(ListNode head, int k) {
