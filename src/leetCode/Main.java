@@ -5,6 +5,9 @@ import leetCode.DAG.TopologicalSort.MaxMinPathV2;
 import leetCode.binarySearch.Array.findTargetInRot2;
 import leetCode.general.Array.distinct.distinctSorted2;
 import leetCode.general.Array.distinct.rmDuplicate;
+import leetCode.greedy.Array.extremum.MaxScorePath;
+
+import java.util.Arrays;
 
 // % 是求余运算符，而 / 才是求商运算符
 
@@ -13,13 +16,14 @@ import leetCode.general.Array.distinct.rmDuplicate;
 
 // ASCII A-Z: 65-90
 // ASCII a-z: 97-122
+// ASCII 0-9: 48-57
 
 public class Main {
     public void main(String[] args) {
-        MaxMinPathV2 ex = new MaxMinPathV2();
+        MaxScorePath ex = new MaxScorePath();
 
-        int result = ex.findMaxPathScore(new int[][]{{0,1,5},{1,5,10},{0,2,3},{2,5,4},{3,4,6},{4,5,8}},new boolean[]{true,true,true,true,true,true},10);
-        System.out.println(result);
+        int[] result = ex.pathsWithMaxScore(Arrays.asList(new String[]{"EX","XS"}));
+        System.out.println(Arrays.toString(result));
 
 
     }

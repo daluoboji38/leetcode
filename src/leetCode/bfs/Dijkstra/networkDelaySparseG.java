@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.PriorityQueue;
-
+// 网络延迟时间
 public class networkDelaySparseG {
     public int networkDelayTime(int[][] times, int n, int k) {
         List<int[]>[] g=new ArrayList[n]; // adjacency graph

@@ -1,7 +1,7 @@
 package leetCode.bfs.Dijkstra;
 
 import java.util.Arrays;
-
+// 网络延迟时间
 public class networkDelayDenseG {
     public int networkDelayTime(int[][] times, int n, int k) {
         final int INF=Integer.MAX_VALUE/2;

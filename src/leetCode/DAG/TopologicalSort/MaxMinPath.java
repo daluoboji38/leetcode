@@ -3,6 +3,7 @@ package leetCode.DAG.TopologicalSort;
 import java.util.*;
 
 // 恢复网络路径
+// Directed Graph
 public class MaxMinPath {
     public int findMaxPathScore(int[][] edges, boolean[] online, long k) {
         int n=online.length;
