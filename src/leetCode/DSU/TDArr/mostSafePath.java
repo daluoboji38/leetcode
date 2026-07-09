@@ -1,9 +1,10 @@
-package leetCode.DSU.BFS;
+package leetCode.DSU.TDArr;
 
 import java.util.ArrayList;
 import java.util.List;
 
 // 找出最安全路径
+// DSU = Disjoint Set Union 并查集
 public class mostSafePath {
     private final static int[][] DIRS = {{0, 1}, {0, -1}, {1, 0}, {-1, 0}};
     private int[] fa;
@@ -16,12 +17,12 @@ public class mostSafePath {
                 if (grid.get(i).get(j) == 1) {
                     q.add(new int[]{i, j});
                 } else {
-                    dis[i][j] = -1;
+                    dis[i][j] = -1;// dis[i][j] denote the Manhattan distance from cell (i, j) to the nearest cell with value 1.
                 }
             }
         }
 
-        List<List<int[]>> groups = new ArrayList<List<int[]>>();
+        List<List<int[]>> groups = new ArrayList<List<int[]>>();// group the dis[i][j] with same value
         groups.add(q);
         while (!q.isEmpty()) {
             List<int[]> tmp=q;

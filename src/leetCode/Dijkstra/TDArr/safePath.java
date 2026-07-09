@@ -1,4 +1,4 @@
-package leetCode.bfs.Dijkstra;
+package leetCode.Dijkstra.TDArr;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

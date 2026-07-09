@@ -1,4 +1,4 @@
-package leetCode.bfs.Dijkstra;
+package leetCode.Dijkstra.DirectedGraph;
 
 import java.util.ArrayList;
 import java.util.Arrays;

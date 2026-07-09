@@ -1,4 +1,4 @@
-package leetCode.DSU.BFS;
+package leetCode.DSU.UndirectedGraph;
 
 // 两个城市间路径的最小分数
 public class minPathV2 {

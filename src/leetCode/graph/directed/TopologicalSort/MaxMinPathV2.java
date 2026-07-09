@@ -1,8 +1,9 @@
-package leetCode.DAG.TopologicalSort;
+package leetCode.graph.directed.TopologicalSort;
 
 import java.util.Arrays;
 // 恢复网络路径
 // Directed Graph
+// DAG 有向无环图
 public class MaxMinPathV2 {
     // edge info group by source point
     private int[][] edgesBySrc;

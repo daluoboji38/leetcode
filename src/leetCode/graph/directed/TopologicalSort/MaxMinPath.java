@@ -1,4 +1,4 @@
-package leetCode.DAG.TopologicalSort;
+package leetCode.graph.directed.TopologicalSort;
 
 import java.util.*;
 

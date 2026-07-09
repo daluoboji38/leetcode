@@ -4,9 +4,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+// 给边赋权值的方案数 II
+// LCA 最近公共祖先
 class oddEdgeWightSum2 {
     private static final int MOD = 1_000_000_007;
-
+// Theorem: The number of ways to select an odd number of elements from k distinct elements
+// (select an odd number of edges and set their weights to 1) is 2^(k−1)
     public int[] assignEdgeWeights(int[][] edges, int[][] queries) {
         LcaBinaryLifting g = new LcaBinaryLifting(edges);
 
@@ -45,7 +48,7 @@ class LcaBinaryLifting{
         }
 
         depth=new int[n];
-        pa=new int[n][m];
+        pa=new int[n][m]; // pa[x][i] means the 2^i ancestor of x
         dfs(g,0,-1);
 
         for(int i=0;i<m-1;i++){
@@ -67,7 +70,7 @@ class LcaBinaryLifting{
     }
 
     public int getKthAncestor(int node, int k) {
-        for(;k>0;k&=k-1){
+        for(;k>0;k&=k-1){ // k&=k-1 means clear the lowest bit of binary k
             node=pa[node][Integer.numberOfTrailingZeros(k)];
         }
         return node;

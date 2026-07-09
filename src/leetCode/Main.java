@@ -1,11 +1,6 @@
 package leetCode;
 
-import leetCode.DAG.TopologicalSort.MaxMinPath;
-import leetCode.DAG.TopologicalSort.MaxMinPathV2;
-import leetCode.binarySearch.Array.findTargetInRot2;
-import leetCode.general.Array.distinct.distinctSorted2;
-import leetCode.general.Array.distinct.rmDuplicate;
-import leetCode.greedy.Array.extremum.MaxScorePath;
+import leetCode.prefixSum.Array.SumAndMul2;
 
 import java.util.Arrays;
 
@@ -20,9 +15,9 @@ import java.util.Arrays;
 
 public class Main {
     public void main(String[] args) {
-        MaxScorePath ex = new MaxScorePath();
+        SumAndMul2 ex = new SumAndMul2();
 
-        int[] result = ex.pathsWithMaxScore(Arrays.asList(new String[]{"EX","XS"}));
+        int[] result = ex.sumAndMultiply("2711785625", new int[][]{{0, 9}});
         System.out.println(Arrays.toString(result));
 
 

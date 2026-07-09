@@ -1,4 +1,4 @@
-package leetCode.DSU.BFS;
+package leetCode.DSU.UndirectedGraph;
 
 import java.util.ArrayList;
 import java.util.Arrays;
