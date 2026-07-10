@@ -1,5 +1,6 @@
 package leetCode;
 
+import leetCode.BinaryLifting_TwoPointer.Arr.pathExistQry2;
 import leetCode.prefixSum.Array.SumAndMul2;
 
 import java.util.Arrays;
@@ -15,9 +16,9 @@ import java.util.Arrays;
 
 public class Main {
     public void main(String[] args) {
-        SumAndMul2 ex = new SumAndMul2();
+        pathExistQry2 ex = new pathExistQry2();
 
-        int[] result = ex.sumAndMultiply("2711785625", new int[][]{{0, 9}});
+        int[] result = ex.pathExistenceQueries(5, new int[]{5,3,1,9,10}, 2, new int[][]{{0, 1}, {0, 2}, {2, 3}, {4, 3}});
         System.out.println(Arrays.toString(result));
 
 

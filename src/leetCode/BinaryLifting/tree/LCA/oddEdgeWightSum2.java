@@ -1,4 +1,4 @@
-package leetCode.tree.BinaryLifting.LCA;
+package leetCode.BinaryLifting.tree.LCA;
 
 import java.util.ArrayList;
 import java.util.Arrays;

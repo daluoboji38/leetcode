@@ -1,4 +1,4 @@
-package leetCode.tree.BinaryLifting;
+package leetCode.BinaryLifting.tree.LCA;
 
 // 树节点的第 K 个祖先
 
