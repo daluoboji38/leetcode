@@ -1,4 +1,4 @@
-package leetCode.dfs;
+package leetCode.dfs.UndirectedGraph;
 
 import java.util.*;
 

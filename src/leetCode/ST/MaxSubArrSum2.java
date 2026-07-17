@@ -2,6 +2,7 @@ package leetCode.ST;
 
 import java.util.PriorityQueue;
 
+// 最大子数组总值 II
 public class MaxSubArrSum2 {
     public long maxTotalValue(int[] nums, int k) {
         int n = nums.length;
