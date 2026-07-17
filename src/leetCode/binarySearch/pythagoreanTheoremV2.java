@@ -1,5 +1,5 @@
 package leetCode.binarySearch;
-
+// 统计平方和三元组的数目
 public class pythagoreanTheoremV2 {
     public int countTriples(int n) {
         int ans = 0;

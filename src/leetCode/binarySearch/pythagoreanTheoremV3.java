@@ -1,5 +1,5 @@
 package leetCode.binarySearch;
-
+// 统计平方和三元组的数目
 /** Discussion on the Properties of the Pythagorean Theorem
  * a,b and c are coprime with each other, or they are multiples of a set of coprime Pythagorean triples.
  * Both u and v are odd numbers and coprime with each other.

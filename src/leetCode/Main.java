@@ -1,6 +1,7 @@
 package leetCode;
 
 import leetCode.BinaryLifting_TwoPointer.Arr.pathExistQry2;
+import leetCode.MultipleInclusionExclusion.qryGCDAfterSort;
 import leetCode.prefixSum.Array.SumAndMul2;
 
 import java.util.Arrays;
@@ -16,9 +17,9 @@ import java.util.Arrays;
 
 public class Main {
     public void main(String[] args) {
-        pathExistQry2 ex = new pathExistQry2();
+        qryGCDAfterSort ex = new qryGCDAfterSort();
 
-        int[] result = ex.pathExistenceQueries(5, new int[]{5,3,1,9,10}, 2, new int[][]{{0, 1}, {0, 2}, {2, 3}, {4, 3}});
+        int[] result = ex.gcdValues(new int[]{4,4,2,1}, new long[]{5,3,1,0});
         System.out.println(Arrays.toString(result));
 
 
