@@ -9,7 +9,7 @@ public class wavinessSum {
     private long calc(long n){
         long ans=0;
 
-        // divide long longo 5 segments orefix | l | m | r | suffix
+        // divide long longo 5 segments prefix | l | m | r | suffix
         for(long pow10=1;n>pow10*100;pow10*=10){
             long maxPrefix = n / (pow10 * 1000);
             long n2=n/pow10;

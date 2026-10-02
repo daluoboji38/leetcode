@@ -12,7 +12,7 @@ public class qryGCDAfterSort {
             cntX[x]++;
         }
 
-        long[] cntGcd=new long[mx+1];
+        long[] cntGcd=new long[mx+1];// cntGcd[i] is the amount of gcd equal to i
         for(int i=mx;i>0;i--){
             int c=0;
             for(int j=i;j<=mx;j+=i){

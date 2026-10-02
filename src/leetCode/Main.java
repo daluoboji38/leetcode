@@ -1,10 +1,13 @@
 package leetCode;
 
-import leetCode.BinaryLifting_TwoPointer.Arr.pathExistQry2;
-import leetCode.MultipleInclusionExclusion.qryGCDAfterSort;
-import leetCode.prefixSum.Array.SumAndMul2;
-
-import java.util.Arrays;
+import leetCode.SegmentTree.arr.XInArr2;
+import leetCode.general.Array.extremum.extremDelete;
+import leetCode.general.location.CircleRectangleOverlap;
+import leetCode.greedy.String.statistics.greaterPalindromicPermutation;
+import leetCode.greedy.String.statistics.greaterPermutation;
+import leetCode.recursion.String.ReverseParentheses;
+import leetCode.tree.BinaryTree.TreeNode;
+import leetCode.tree.BinaryTree.cnt.subTreeAvgV2;
 
 // % 是求余运算符，而 / 才是求商运算符
 
@@ -15,12 +18,14 @@ import java.util.Arrays;
 // ASCII a-z: 97-122
 // ASCII 0-9: 48-57
 
-public class Main {
-    public void main(String[] args) {
-        qryGCDAfterSort ex = new qryGCDAfterSort();
+class Main {
+     void main(String[] args) {
+         ReverseParentheses ex = new ReverseParentheses();
+        // test ex = new test();
 
-        int[] result = ex.gcdValues(new int[]{4,4,2,1}, new long[]{5,3,1,0});
-        System.out.println(Arrays.toString(result));
+
+        String res = ex.reverseParentheses("(abcd)");
+        System.out.println(res);
 
 
     }

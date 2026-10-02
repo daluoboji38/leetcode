@@ -1,5 +1,7 @@
 package leetCode.tree.BinaryTree.Integer;
 
+import leetCode.tree.BinaryTree.TreeNode;
+
 import java.util.HashMap;
 import java.util.Map;
 
