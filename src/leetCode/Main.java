@@ -2,6 +2,7 @@ package leetCode;
 
 import leetCode.SegmentTree.arr.XInArr2;
 import leetCode.general.Array.extremum.extremDelete;
+import leetCode.general.String.validation.validParenthesesWithAsterisk;
 import leetCode.general.location.CircleRectangleOverlap;
 import leetCode.greedy.String.statistics.greaterPalindromicPermutation;
 import leetCode.greedy.String.statistics.greaterPermutation;
@@ -20,11 +21,11 @@ import leetCode.tree.BinaryTree.cnt.subTreeAvgV2;
 
 class Main {
      void main(String[] args) {
-         ReverseParentheses ex = new ReverseParentheses();
+         validParenthesesWithAsterisk ex = new validParenthesesWithAsterisk();
         // test ex = new test();
 
 
-        String res = ex.reverseParentheses("(abcd)");
+        boolean res = ex.checkValidString("(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())");
         System.out.println(res);
 
 

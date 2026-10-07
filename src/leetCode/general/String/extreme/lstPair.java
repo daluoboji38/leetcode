@@ -1,7 +1,7 @@
-package leetCode.general.String;
+package leetCode.general.String.extreme;
 
 // 最长有效括号
-public class lstPar {
+public class lstPair {
     public int longestValidParentheses(String s) {
         int left=0,right=0,ans=0, n=s.length();
         for(int i=0;i<n;i++){
