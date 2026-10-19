@@ -1,14 +1,8 @@
 package leetCode;
 
-import leetCode.SegmentTree.arr.XInArr2;
-import leetCode.general.Array.extremum.extremDelete;
-import leetCode.general.String.validation.validParenthesesWithAsterisk;
-import leetCode.general.location.CircleRectangleOverlap;
-import leetCode.greedy.String.statistics.greaterPalindromicPermutation;
-import leetCode.greedy.String.statistics.greaterPermutation;
-import leetCode.recursion.String.ReverseParentheses;
-import leetCode.tree.BinaryTree.TreeNode;
-import leetCode.tree.BinaryTree.cnt.subTreeAvgV2;
+import leetCode.SegmentTree.arr.cntSquareSum;
+
+import java.util.List;
 
 // % 是求余运算符，而 / 才是求商运算符
 
@@ -21,11 +15,11 @@ import leetCode.tree.BinaryTree.cnt.subTreeAvgV2;
 
 class Main {
      void main(String[] args) {
-         validParenthesesWithAsterisk ex = new validParenthesesWithAsterisk();
+         cntSquareSum ex = new cntSquareSum();
         // test ex = new test();
 
 
-        boolean res = ex.checkValidString("(((((*(()((((*((**(((()()*)()()()*((((**)())*)*)))))))(())(()))())((*()()(((()((()*(())*(()**)()(())");
+         int res = ex.sumCounts(List.of(1,2,1));
         System.out.println(res);
 
 
