@@ -1,4 +1,4 @@
-package leetCode.general.Array.extremum;
+package leetCode.general.Array.extreme;
 
 // 最小稳定下标 I
 public class FirstStableIdx {

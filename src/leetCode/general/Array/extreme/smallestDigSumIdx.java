@@ -1,4 +1,4 @@
-package leetCode.general.Array.extremum;
+package leetCode.general.Array.extreme;
 
 // 数位和等于下标的最小下标
 public class smallestDigSumIdx {

@@ -1,4 +1,4 @@
-package leetCode.general.Array.extremum;
+package leetCode.general.Array.extreme;
 
 // 找到最高海拔
 public class MaxAltitude {

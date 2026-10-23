@@ -1,4 +1,4 @@
-package leetCode.greedy.String.exteme;
+package leetCode.greedy.String.extreme;
 
 // 不重叠回文子字符串的最大数目
 public class NonOverlapPalindromesV2 {

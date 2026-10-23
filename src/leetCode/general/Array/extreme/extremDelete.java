@@ -1,4 +1,4 @@
-package leetCode.general.Array.extremum;
+package leetCode.general.Array.extreme;
 
 // 从数组中移除最大值和最小值
 public class extremDelete {

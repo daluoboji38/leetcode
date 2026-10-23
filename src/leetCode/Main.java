@@ -1,6 +1,6 @@
 package leetCode;
 
-import leetCode.SegmentTree.arr.cntSquareSum;
+import leetCode.general.Array.extreme.sortMinOperation2;
 
 import java.util.List;
 
@@ -15,11 +15,11 @@ import java.util.List;
 
 class Main {
      void main(String[] args) {
-         cntSquareSum ex = new cntSquareSum();
+         sortMinOperation2 ex = new sortMinOperation2();
         // test ex = new test();
 
 
-         int res = ex.sumCounts(List.of(1,2,1));
+         int res = ex.minOperations(new int[]{1,0,2});
         System.out.println(res);
 
 

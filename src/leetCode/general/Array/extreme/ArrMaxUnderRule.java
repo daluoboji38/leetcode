@@ -1,6 +1,4 @@
-package leetCode.general.Array.extremum;
-
-import java.util.Arrays;
+package leetCode.general.Array.extreme;
 
 // 减小和重新排列数组后的最大元素
 public class ArrMaxUnderRule {

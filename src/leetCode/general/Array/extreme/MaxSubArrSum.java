@@ -1,4 +1,4 @@
-package leetCode.general.Array.extremum;
+package leetCode.general.Array.extreme;
 
 // 最大子数组总值 I
 public class MaxSubArrSum {
