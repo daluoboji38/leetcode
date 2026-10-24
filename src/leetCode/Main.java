@@ -1,8 +1,15 @@
 package leetCode;
 
-import leetCode.general.Array.extreme.sortMinOperation2;
-
-import java.util.List;
+import leetCode.SegmentTree.arr.XInArr2;
+import leetCode.general.Array.extremum.extremDelete;
+import leetCode.general.String.extreme.minParenthesesInsert;
+import leetCode.general.String.validation.validParenthesesWithAsterisk;
+import leetCode.general.location.CircleRectangleOverlap;
+import leetCode.greedy.String.statistics.greaterPalindromicPermutation;
+import leetCode.greedy.String.statistics.greaterPermutation;
+import leetCode.recursion.String.ReverseParentheses;
+import leetCode.tree.BinaryTree.TreeNode;
+import leetCode.tree.BinaryTree.cnt.subTreeAvgV2;
 
 // % 是求余运算符，而 / 才是求商运算符
 
@@ -15,11 +22,11 @@ import java.util.List;
 
 class Main {
      void main(String[] args) {
-         sortMinOperation2 ex = new sortMinOperation2();
+         minParenthesesInsert ex = new minParenthesesInsert();
         // test ex = new test();
 
 
-         int res = ex.minOperations(new int[]{1,0,2});
+        int res = ex.minInsertions("((((((");
         System.out.println(res);
 
 
