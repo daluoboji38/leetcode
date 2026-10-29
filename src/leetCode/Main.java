@@ -1,15 +1,7 @@
 package leetCode;
 
-import leetCode.SegmentTree.arr.XInArr2;
-import leetCode.general.Array.extremum.extremDelete;
-import leetCode.general.String.extreme.minParenthesesInsert;
-import leetCode.general.String.validation.validParenthesesWithAsterisk;
-import leetCode.general.location.CircleRectangleOverlap;
-import leetCode.greedy.String.statistics.greaterPalindromicPermutation;
-import leetCode.greedy.String.statistics.greaterPermutation;
-import leetCode.recursion.String.ReverseParentheses;
-import leetCode.tree.BinaryTree.TreeNode;
-import leetCode.tree.BinaryTree.cnt.subTreeAvgV2;
+import leetCode.dfs.TDArr.islandDivByK;
+
 
 // % 是求余运算符，而 / 才是求商运算符
 
@@ -22,11 +14,11 @@ import leetCode.tree.BinaryTree.cnt.subTreeAvgV2;
 
 class Main {
      void main(String[] args) {
-         minParenthesesInsert ex = new minParenthesesInsert();
+         islandDivByK ex = new islandDivByK();
         // test ex = new test();
 
 
-        int res = ex.minInsertions("((((((");
+        int res = ex.countIslands(new int[][]{{0,2,1,0,0},{0,5,0,0,5},{0,0,1,0,0},{0,1,4,7,0},{0,2,0,0,8}},5);
         System.out.println(res);
 
 
