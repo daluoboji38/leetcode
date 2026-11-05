@@ -1,6 +1,9 @@
 package leetCode;
 
+import leetCode.FenwickTree.dfsTimestamp.weightedTreeShortestPath;
 import leetCode.dfs.TDArr.islandDivByK;
+
+import java.util.Arrays;
 
 
 // % 是求余运算符，而 / 才是求商运算符
@@ -14,12 +17,12 @@ import leetCode.dfs.TDArr.islandDivByK;
 
 class Main {
      void main(String[] args) {
-         islandDivByK ex = new islandDivByK();
+         weightedTreeShortestPath ex = new weightedTreeShortestPath();
         // test ex = new test();
 
 
-        int res = ex.countIslands(new int[][]{{0,2,1,0,0},{0,5,0,0,5},{0,0,1,0,0},{0,1,4,7,0},{0,2,0,0,8}},5);
-        System.out.println(res);
+        int[] res = ex.treeQueries(3,new int[][]{{1,2,2},{1,3,4}},new int[][]{{2,1},{2,3},{1,1,3,7},{2,2},{2,3}});
+        System.out.println(Arrays.toString(res));
 
 
     }
